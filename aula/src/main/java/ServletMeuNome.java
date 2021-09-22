@@ -1,5 +1,3 @@
-
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -31,7 +29,7 @@ public class ServletMeuNome extends HttpServlet {
 		
 		PrintWriter saida = response.getWriter();
 		
-		saida.write("<HTML><Body><h1 style=text-align:center;>Gustavo Gomes de Jesus</h1></Body></HTML>");
+		saida.write("<HTML><Body><h1 style=text-align:center;>Meu nome é Gustavo Gomes de Jesus</h1></Body></HTML>");
 		
 		saida.close();
 	}
